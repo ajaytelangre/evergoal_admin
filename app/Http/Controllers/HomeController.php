@@ -420,7 +420,7 @@ class HomeController extends Controller
             'name' => 'required',
             'mobile'=>'required|unique:users|max:10|min:10',
             'email'=>'required|unique:users',
-            'sponserid'=>'required|unique:users',
+            'sponserid'=>'required',
             'password'=>'required',
             'confirm_password'=>'required'
         ]);
